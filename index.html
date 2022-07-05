@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de comentários</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css" media="all">
+</head>
+<body>
+    <header>
+        <div id="cabecalho">
+            <h1 class="titulo">Página de Comentários</h1>
+        </div>
+    </header>
+    <main>
+        <div>    
+            <form onsubmit="return false">
+                <label class="nome">Nome:</label> <br>
+                    <input type="text" placeholder="Insira seu nome" maxlength="150px" class="insira-nome" id="nome"> <br> 
+                <label class="nome"> Comentário:</label> <br>
+                    <textarea id="comentario" placeholder="Digite aqui seu comentário" class="comentario-estilo"> </textarea> <br>
+                <label class="nome"> Formatação:</label> <br>
+                 <label class="nome2"> Cor de Texto:</label>
+                    <input type="color" class="tinta" id="cortexto"> 
+                 <label class="nome2">Cor de fundo:</label>
+                    <input type="color" class="tinta" id="corfundo"> <br> <br>
+                 <button onclick="receber();" class="botao"> <strong> Enviar </strong></button> <br>
+               <br> 
+            </form>
+        </div>
+            <!-- <div id="result" class="resposta"> -->
+            <div id="result"></div>
+            
+    </main>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

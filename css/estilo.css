@@ -1,0 +1,74 @@
+*{
+    margin: none;
+    padding: none;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    width: 920px;
+    margin: 20px auto;
+}
+#cabecalho {
+    background: #0A0040;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+.titulo {
+    color: #DB592A;
+    font-size: 3em;
+    margin-left: 20%;
+}
+
+.nome{
+    font-size: 1.3em;
+    font: bold;
+    margin: 30px 0px;
+    padding: 20px;
+}
+.nome2{
+    font-size: 1.3em;
+    font: bold;
+    margin: 30px 0px 5px 10px;
+    padding: 10px;
+}
+.insira-nome {
+    width: 340px;
+    padding: 5px;
+    margin: 10px 0px 15px 40px;
+}
+.comentario-estilo{
+    width: 345px;
+    height: 100px;
+    margin: 10px 20px 10px 40px;
+    resize: none;
+}
+
+.tinta{
+    width: 25px;
+    margin: none;
+    border-radius: 50%;
+    padding: none;
+
+}
+.botao{
+    margin-left: 30px;
+    width: 65px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #7363cc;
+    color:#f5f5f2;
+    font: bold;
+}
+.botao:hover{
+    background-color: #0A0040;
+    color:#DB592A;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.resposta{
+    border: 1px solid #0A0040;
+    padding: 20px 40px;
+    display: block;
+}
+
